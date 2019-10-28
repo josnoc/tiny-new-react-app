@@ -11,5 +11,15 @@
 
   .react-logo {
     width: 33.33%;
+    animation: rotate 5s infinite;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
